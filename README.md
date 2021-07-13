@@ -3,6 +3,6 @@
 # 30 Days of JavaScript
 --------------------------------------------------------------------------------------------------------------------------
 
-## Below are the links of all the projects 
+### Below are the links of all the projects 
 
 1. [JS DruM Kit](https://minku-singh.github.io/30-days-of-JavaScript/01-JS-drum-kit/)
