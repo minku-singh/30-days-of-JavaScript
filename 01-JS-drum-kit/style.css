@@ -1,0 +1,101 @@
+/*Removing by default styles*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*HTML selector : To set background to the whole page*/
+html
+{
+    /*Background image from toptal*/
+    background-image: url(./assets/image/darkness/background-dark.png);
+}
+
+/*BODY*/
+body
+{
+    font-family: 'Inconsolata', monospace;
+    height: 100vh;
+}
+
+/*HEADER*/
+/*Project number*/
+#project-number
+{
+    max-width: 200px;
+    margin-bottom: 5vh;
+    padding: 2px;
+    
+    background-color: yellow;
+}
+
+/*MAIN*/
+/*JS DRUM KIT HEADING*/
+#js-drum-kit
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 15vh 0;
+
+    color: greenyellow;
+    
+}
+
+/*KEYS COLLECTION*/
+.keys
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    color: white;
+}
+
+/*EACH KEY*/
+.key
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2vh 1vw;
+    padding: 1.5em;
+    height: 4vh;
+    width: 4vw;
+
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    background-color: rgba(192, 192, 191, 0.205);
+    
+    cursor: pointer;
+
+    transition: all 0.07s;
+}
+
+.playing
+{
+    transform: scale(1.1);
+    border-color: yellowgreen;
+    box-shadow: 0 0 10px yellowgreen;
+}
+
+.key kbd
+{
+    font-size: 2rem;
+}
+
+.key .sound
+{
+    color: yellowgreen;
+}
+
+
+
+
